@@ -1,0 +1,44 @@
+VERSION = 1,
+
+option AdjustDayAndNightTime.UseModdedTime {
+    type = boolean,
+    default = true,
+    page = TimeOptions,
+    translation = AdjustDayAndNightTime_UseModdedTime,
+}
+
+option AdjustDayAndNightTime.HourInDayTime {
+    type = double,
+    min = 0.01,
+    max = 60.0,
+    default = 6.0,
+    page = TimeOptions,
+    translation = AdjustDayAndNightTime_HourInDayTime,
+}
+
+option AdjustDayAndNightTime.HourInNightTime {
+    type = double,
+    min = 0.01,
+    max = 60.0,
+    default = 3.0,
+    page = TimeOptions,
+    translation = AdjustDayAndNightTime_HourInNightTime,
+}
+
+option AdjustDayAndNightTime.DawnOffsetHours {
+    type = double,
+    min = -4.0,
+    max = 4.0,
+    default = -1.0,
+    page = TimeOptions,
+    translation = AdjustDayAndNightTime_DawnOffsetHours,
+}
+
+option AdjustDayAndNightTime.DuskOffsetHours {
+    type = double,
+    min = -4.0,
+    max = 4.0,
+    default = 1.0,
+    page = TimeOptions,
+    translation = AdjustDayAndNightTime_DuskOffsetHours,
+}

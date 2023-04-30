@@ -1,0 +1,5 @@
+Sandbox_EN = {
+    Sandbox_RealTimeSleep_UseModdedSleep = "Use the modded sleep",
+    Sandbox_RealTimeSleep_FatigueMultiplier = "Fatigue multiplier",
+    Sandbox_RealTimeSleep_EnduranceMultiplier = "Endurance multiplier",
+}

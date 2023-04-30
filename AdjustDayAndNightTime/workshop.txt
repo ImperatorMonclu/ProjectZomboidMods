@@ -1,0 +1,13 @@
+version=1
+id=2962586074
+title=Adjust Day and Night Time
+description=Would you like to have more control over time in Project Zomboid? With this mod, you can modify the speed of time according to whether it is day or night. This way you can enjoy more of the day and speed up boring nights.
+description=
+description=The mod adapts to the game's light cycle, so the time will be different depending on the season.
+description=An offset of the time speed can be set according to day or night.
+description=
+description=Experience a new way of playing Project Zomboid with this mod!
+description=
+description=Translations available: English, Spanish (Español), ?
+tags=Build 41;Balance;Hardmode;Multiplayer
+visibility=public

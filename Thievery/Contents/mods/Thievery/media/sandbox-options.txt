@@ -1,0 +1,8 @@
+VERSION = 1,
+
+option ClimateZombies.UseModdedZombies {
+    type = boolean,
+    default = true,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_UseModdedZombies,
+}

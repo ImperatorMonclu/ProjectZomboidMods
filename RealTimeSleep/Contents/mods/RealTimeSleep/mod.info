@@ -1,0 +1,10 @@
+name=Real Time Sleep
+id=RealTimeSleep
+versionMin=41.60
+modVersion=1.0.0
+authors=Monclu
+poster=poster.png
+icon=poster.png
+description=This mod makes the sleep time based on real-time, not the game time, to make multiplayer games more fun. Many players disable the tiredness option because they find waiting for everyone to sleep boring, but with this mod, they can enjoy a more dynamic and balanced game. The default value of the multiplier will allow you to rest the maximum fatigue for approximately 10 minutes. So if you need to reduce the time you can increase the multiplier, e.g. if the multiplier is set to 2 your rest will be 5 minutes. If you like Project Zomboid and want to make it more challenging and cooperative, try this mod and share your experience with other players - I hope you enjoy it! Translations available: English, Spanish (Español), German (Deutsch, by Jean François). Note: If you are looking for a similar mod, try Sleep With Friends, which also synchronizes sleep time with real-time. Real Time Sleep is inspired by it but has some differences in optimization and settings.
+tags=Build 41;Balance;Multiplayer
+url=

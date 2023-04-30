@@ -1,0 +1,5 @@
+Sandbox_DE = {
+    Sandbox_RealTimeSleep_UseModdedSleep = "Verwende gemoddeten Schlaf",
+    Sandbox_RealTimeSleep_FatigueMultiplier = "Müdigkeitsmultiplikator",
+    Sandbox_RealTimeSleep_EnduranceMultiplier = "Ausdauermultiplikator",
+}

@@ -1,0 +1,7 @@
+Sandbox_ES = {
+    Sandbox_AdjustDayAndNightTime_UseModdedTime = "Usar el tiempo modded",
+    Sandbox_AdjustDayAndNightTime_HourInDayTime = "Tiempo de la hora de dia (minutos)",
+    Sandbox_AdjustDayAndNightTime_HourInNightTime = "Tiempo de la hora de noche (minutos)",
+    Sandbox_AdjustDayAndNightTime_DawnOffsetHours = "Horas de desplazamiento del amanecer",
+    Sandbox_AdjustDayAndNightTime_DuskOffsetHours = "Horas de desplazamiento del anochecer",
+}

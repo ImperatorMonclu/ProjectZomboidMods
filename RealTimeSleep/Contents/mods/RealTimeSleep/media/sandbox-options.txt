@@ -1,0 +1,26 @@
+VERSION = 1,
+
+option RealTimeSleep.UseModdedSleep {
+    type = boolean,
+    default = true,
+    page = TimeOptions,
+    translation = RealTimeSleep_UseModdedSleep,
+}
+
+option RealTimeSleep.FatigueMultiplier {
+    type = double,
+    min = 0.01,
+    max = 100000.0,
+    default = 1.0,
+    page = TimeOptions,
+    translation = RealTimeSleep_FatigueMultiplier,
+}
+
+option RealTimeSleep.EnduranceMultiplier {
+    type = double,
+    min = 0.01,
+    max = 100000.0,
+    default = 1.0,
+    page = TimeOptions,
+    translation = RealTimeSleep_EnduranceMultiplier,
+}

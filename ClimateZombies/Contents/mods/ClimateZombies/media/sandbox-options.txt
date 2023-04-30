@@ -1,0 +1,2645 @@
+VERSION = 1,
+
+option ClimateZombies.UseModdedZombies {
+    type = boolean,
+    default = true,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_UseModdedZombies,
+}
+
+option ClimateZombies.DefaultSpeed {
+    type = enum,
+    numValues = 4,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_DefaultSpeed,
+    valueTranslation = ZSpeed,
+}
+
+option ClimateZombies.DefaultStrength {
+    type = enum,
+    numValues = 4,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_DefaultStrength,
+    valueTranslation = ZStrength,
+}
+
+option ClimateZombies.DefaultToughness {
+    type = enum,
+    numValues = 4,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_DefaultToughness,
+    valueTranslation = ZToughness,
+}
+
+option ClimateZombies.DefaultCognition {
+    type = enum,
+    numValues = 4,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_DefaultCognition,
+    valueTranslation = ZCognition,
+}
+
+option ClimateZombies.DefaultMemory {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_DefaultMemory,
+    valueTranslation = ZMemory,
+}
+
+option ClimateZombies.DefaultSight {
+    type = enum,
+    numValues = 4,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_DefaultSight,
+    valueTranslation = ZSight,
+}
+
+option ClimateZombies.DefaultHearing {
+    type = enum,
+    numValues = 4,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_DefaultHearing,
+    valueTranslation = ZHearing,
+}
+
+option ClimateZombies.NightStrengthEnable {
+    type = boolean,
+    default = true,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_NightStrengthEnable,
+}
+
+option ClimateZombies.NightStrengthSpeedValue1 {
+    type = enum,
+    numValues = 5,
+    default = 1,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SpeedValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.NightStrengthStrengthValue1 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_StrengthValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.NightStrengthToughnessValue1 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_ToughnessValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.NightStrengthCognitionValue1 {
+    type = enum,
+    numValues = 5,
+    default = 1,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_CognitionValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.NightStrengthMemoryValue1 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_MemoryValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.NightStrengthSightValue1 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SightValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.NightStrengthHearingValue1 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_HearingValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.NightStrengthLimit1 {
+    type = double,
+    min = 0.01,
+    max = 0.99,
+    default = 0.25,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_NightStrengthLimit,
+}
+
+option ClimateZombies.NightStrengthSpeedValue2 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SpeedValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.NightStrengthStrengthValue2 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_StrengthValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.NightStrengthToughnessValue2 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_ToughnessValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.NightStrengthCognitionValue2 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_CognitionValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.NightStrengthMemoryValue2 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_MemoryValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.NightStrengthSightValue2 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SightValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.NightStrengthHearingValue2 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_HearingValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.NightStrengthLimit2 {
+    type = double,
+    min = 0.01,
+    max = 0.99,
+    default = 0.5,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_NightStrengthLimit,
+}
+
+option ClimateZombies.NightStrengthSpeedValue3 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SpeedValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.NightStrengthStrengthValue3 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_StrengthValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.NightStrengthToughnessValue3 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_ToughnessValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.NightStrengthCognitionValue3 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_CognitionValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.NightStrengthMemoryValue3 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_MemoryValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.NightStrengthSightValue3 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SightValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.NightStrengthHearingValue3 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_HearingValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.NightStrengthLimit3 {
+    type = double,
+    min = 0.01,
+    max = 0.99,
+    default = 0.75,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_NightStrengthLimit,
+}
+
+option ClimateZombies.NightStrengthSpeedValue4 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SpeedValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.NightStrengthStrengthValue4 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_StrengthValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.NightStrengthToughnessValue4 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_ToughnessValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.NightStrengthCognitionValue4 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_CognitionValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.NightStrengthMemoryValue4 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_MemoryValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.NightStrengthSightValue4 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SightValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.NightStrengthHearingValue4 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_HearingValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.DayLightStrengthEnable {
+    type = boolean,
+    default = true,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_DayLightStrengthEnable,
+}
+
+option ClimateZombies.DayLightStrengthSpeedValue1 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SpeedValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.DayLightStrengthStrengthValue1 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_StrengthValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.DayLightStrengthToughnessValue1 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_ToughnessValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.DayLightStrengthCognitionValue1 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_CognitionValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.DayLightStrengthMemoryValue1 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_MemoryValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.DayLightStrengthSightValue1 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SightValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.DayLightStrengthHearingValue1 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_HearingValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.DayLightStrengthLimit1 {
+    type = double,
+    min = 0.01,
+    max = 0.99,
+    default = 0.25,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_DayLightStrengthLimit,
+}
+
+option ClimateZombies.DayLightStrengthSpeedValue2 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SpeedValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.DayLightStrengthStrengthValue2 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_StrengthValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.DayLightStrengthToughnessValue2 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_ToughnessValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.DayLightStrengthCognitionValue2 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_CognitionValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.DayLightStrengthMemoryValue2 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_MemoryValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.DayLightStrengthSightValue2 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SightValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.DayLightStrengthHearingValue2 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_HearingValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.DayLightStrengthLimit2 {
+    type = double,
+    min = 0.01,
+    max = 0.99,
+    default = 0.5,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_DayLightStrengthLimit,
+}
+
+option ClimateZombies.DayLightStrengthSpeedValue3 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SpeedValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.DayLightStrengthStrengthValue3 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_StrengthValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.DayLightStrengthToughnessValue3 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_ToughnessValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.DayLightStrengthCognitionValue3 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_CognitionValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.DayLightStrengthMemoryValue3 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_MemoryValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.DayLightStrengthSightValue3 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SightValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.DayLightStrengthHearingValue3 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_HearingValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.DayLightStrengthLimit3 {
+    type = double,
+    min = 0.01,
+    max = 0.99,
+    default = 0.75,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_DayLightStrengthLimit,
+}
+
+option ClimateZombies.DayLightStrengthSpeedValue4 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SpeedValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.DayLightStrengthStrengthValue4 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_StrengthValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.DayLightStrengthToughnessValue4 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_ToughnessValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.DayLightStrengthCognitionValue4 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_CognitionValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.DayLightStrengthMemoryValue4 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_MemoryValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.DayLightStrengthSightValue4 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SightValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.DayLightStrengthHearingValue4 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_HearingValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.TemperatureEnable {
+    type = boolean,
+    default = true,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_TemperatureEnable,
+}
+
+option ClimateZombies.TemperatureSpeedValue1 {
+    type = enum,
+    numValues = 5,
+    default = 1,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SpeedValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.TemperatureStrengthValue1 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_StrengthValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.TemperatureToughnessValue1 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_ToughnessValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.TemperatureCognitionValue1 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_CognitionValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.TemperatureMemoryValue1 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_MemoryValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.TemperatureSightValue1 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SightValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.TemperatureHearingValue1 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_HearingValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.TemperatureLimit1 {
+    type = double,
+    min = -50.0,
+    max = 50.0,
+    default = -5.0,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_TemperatureLimit,
+}
+
+option ClimateZombies.TemperatureSpeedValue2 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SpeedValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.TemperatureStrengthValue2 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_StrengthValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.TemperatureToughnessValue2 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_ToughnessValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.TemperatureCognitionValue2 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_CognitionValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.TemperatureMemoryValue2 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_MemoryValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.TemperatureSightValue2 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SightValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.TemperatureHearingValue2 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_HearingValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.TemperatureLimit2 {
+    type = double,
+    min = -50.0,
+    max = 50.0,
+    default = 10.0,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_TemperatureLimit,
+}
+
+option ClimateZombies.TemperatureSpeedValue3 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SpeedValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.TemperatureStrengthValue3 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_StrengthValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.TemperatureToughnessValue3 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_ToughnessValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.TemperatureCognitionValue3 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_CognitionValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.TemperatureMemoryValue3 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_MemoryValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.TemperatureSightValue3 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SightValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.TemperatureHearingValue3 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_HearingValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.TemperatureLimit3 {
+    type = double,
+    min = -50.0,
+    max = 50.0,
+    default = 25.0,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_TemperatureLimit,
+}
+
+option ClimateZombies.TemperatureSpeedValue4 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SpeedValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.TemperatureStrengthValue4 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_StrengthValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.TemperatureToughnessValue4 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_ToughnessValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.TemperatureCognitionValue4 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_CognitionValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.TemperatureMemoryValue4 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_MemoryValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.TemperatureSightValue4 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SightValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.TemperatureHearingValue4 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_HearingValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.FogIntensityEnable {
+    type = boolean,
+    default = true,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_FogIntensityEnable,
+}
+
+option ClimateZombies.FogIntensitySpeedValue1 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SpeedValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.FogIntensityStrengthValue1 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_StrengthValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.FogIntensityToughnessValue1 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_ToughnessValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.FogIntensityCognitionValue1 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_CognitionValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.FogIntensityMemoryValue1 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_MemoryValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.FogIntensitySightValue1 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SightValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.FogIntensityHearingValue1 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_HearingValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.FogIntensityLimit1 {
+    type = double,
+    min = 0.01,
+    max = 0.99,
+    default = 0.25,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_FogIntensityLimit,
+}
+
+option ClimateZombies.FogIntensitySpeedValue2 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SpeedValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.FogIntensityStrengthValue2 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_StrengthValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.FogIntensityToughnessValue2 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_ToughnessValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.FogIntensityCognitionValue2 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_CognitionValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.FogIntensityMemoryValue2 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_MemoryValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.FogIntensitySightValue2 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SightValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.FogIntensityHearingValue2 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_HearingValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.FogIntensityLimit2 {
+    type = double,
+    min = 0.01,
+    max = 0.99,
+    default = 0.5,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_FogIntensityLimit,
+}
+
+option ClimateZombies.FogIntensitySpeedValue3 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SpeedValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.FogIntensityStrengthValue3 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_StrengthValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.FogIntensityToughnessValue3 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_ToughnessValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.FogIntensityCognitionValue3 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_CognitionValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.FogIntensityMemoryValue3 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_MemoryValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.FogIntensitySightValue3 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SightValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.FogIntensityHearingValue3 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_HearingValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.FogIntensityLimit3 {
+    type = double,
+    min = 0.01,
+    max = 0.99,
+    default = 0.75,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_FogIntensityLimit,
+}
+
+option ClimateZombies.FogIntensitySpeedValue4 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SpeedValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.FogIntensityStrengthValue4 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_StrengthValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.FogIntensityToughnessValue4 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_ToughnessValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.FogIntensityCognitionValue4 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_CognitionValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.FogIntensityMemoryValue4 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_MemoryValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.FogIntensitySightValue4 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SightValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.FogIntensityHearingValue4 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_HearingValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.RainIntensityEnable {
+    type = boolean,
+    default = true,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_RainIntensityEnable,
+}
+
+option ClimateZombies.RainIntensitySpeedValue1 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SpeedValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.RainIntensityStrengthValue1 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_StrengthValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.RainIntensityToughnessValue1 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_ToughnessValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.RainIntensityCognitionValue1 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_CognitionValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.RainIntensityMemoryValue1 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_MemoryValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.RainIntensitySightValue1 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SightValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.RainIntensityHearingValue1 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_HearingValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.RainIntensityLimit1 {
+    type = double,
+    min = 0.01,
+    max = 0.99,
+    default = 0.25,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_RainIntensityLimit,
+}
+
+option ClimateZombies.RainIntensitySpeedValue2 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SpeedValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.RainIntensityStrengthValue2 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_StrengthValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.RainIntensityToughnessValue2 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_ToughnessValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.RainIntensityCognitionValue2 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_CognitionValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.RainIntensityMemoryValue2 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_MemoryValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.RainIntensitySightValue2 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SightValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.RainIntensityHearingValue2 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_HearingValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.RainIntensityLimit2 {
+    type = double,
+    min = 0.01,
+    max = 0.99,
+    default = 0.5,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_RainIntensityLimit,
+}
+
+option ClimateZombies.RainIntensitySpeedValue3 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SpeedValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.RainIntensityStrengthValue3 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_StrengthValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.RainIntensityToughnessValue3 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_ToughnessValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.RainIntensityCognitionValue3 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_CognitionValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.RainIntensityMemoryValue3 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_MemoryValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.RainIntensitySightValue3 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SightValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.RainIntensityHearingValue3 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_HearingValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.RainIntensityLimit3 {
+    type = double,
+    min = 0.01,
+    max = 0.99,
+    default = 0.75,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_RainIntensityLimit,
+}
+
+option ClimateZombies.RainIntensitySpeedValue4 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SpeedValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.RainIntensityStrengthValue4 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_StrengthValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.RainIntensityToughnessValue4 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_ToughnessValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.RainIntensityCognitionValue4 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_CognitionValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.RainIntensityMemoryValue4 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_MemoryValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.RainIntensitySightValue4 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SightValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.RainIntensityHearingValue4 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_HearingValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowIntensityEnable {
+    type = boolean,
+    default = true,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SnowIntensityEnable,
+}
+
+option ClimateZombies.SnowIntensitySpeedValue1 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SpeedValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowIntensityStrengthValue1 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_StrengthValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowIntensityToughnessValue1 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_ToughnessValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowIntensityCognitionValue1 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_CognitionValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowIntensityMemoryValue1 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_MemoryValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowIntensitySightValue1 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SightValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowIntensityHearingValue1 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_HearingValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowIntensityLimit1 {
+    type = double,
+    min = 0.01,
+    max = 0.99,
+    default = 0.25,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SnowIntensityLimit,
+}
+
+option ClimateZombies.SnowIntensitySpeedValue2 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SpeedValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowIntensityStrengthValue2 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_StrengthValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowIntensityToughnessValue2 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_ToughnessValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowIntensityCognitionValue2 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_CognitionValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowIntensityMemoryValue2 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_MemoryValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowIntensitySightValue2 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SightValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowIntensityHearingValue2 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_HearingValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowIntensityLimit2 {
+    type = double,
+    min = 0.01,
+    max = 0.99,
+    default = 0.5,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SnowIntensityLimit,
+}
+
+option ClimateZombies.SnowIntensitySpeedValue3 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SpeedValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowIntensityStrengthValue3 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_StrengthValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowIntensityToughnessValue3 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_ToughnessValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowIntensityCognitionValue3 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_CognitionValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowIntensityMemoryValue3 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_MemoryValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowIntensitySightValue3 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SightValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowIntensityHearingValue3 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_HearingValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowIntensityLimit3 {
+    type = double,
+    min = 0.01,
+    max = 0.99,
+    default = 0.75,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SnowIntensityLimit,
+}
+
+option ClimateZombies.SnowIntensitySpeedValue4 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SpeedValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowIntensityStrengthValue4 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_StrengthValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowIntensityToughnessValue4 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_ToughnessValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowIntensityCognitionValue4 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_CognitionValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowIntensityMemoryValue4 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_MemoryValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowIntensitySightValue4 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SightValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowIntensityHearingValue4 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_HearingValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowStrengthEnable {
+    type = boolean,
+    default = true,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SnowStrengthEnable,
+}
+
+option ClimateZombies.SnowStrengthSpeedValue1 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SpeedValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowStrengthStrengthValue1 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_StrengthValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowStrengthToughnessValue1 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_ToughnessValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowStrengthCognitionValue1 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_CognitionValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowStrengthMemoryValue1 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_MemoryValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowStrengthSightValue1 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SightValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowStrengthHearingValue1 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_HearingValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowStrengthLimit1 {
+    type = double,
+    min = 0.01,
+    max = 0.99,
+    default = 0.25,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SnowStrengthLimit,
+}
+
+option ClimateZombies.SnowStrengthSpeedValue2 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SpeedValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowStrengthStrengthValue2 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_StrengthValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowStrengthToughnessValue2 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_ToughnessValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowStrengthCognitionValue2 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_CognitionValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowStrengthMemoryValue2 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_MemoryValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowStrengthSightValue2 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SightValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowStrengthHearingValue2 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_HearingValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowStrengthLimit2 {
+    type = double,
+    min = 0.01,
+    max = 0.99,
+    default = 0.5,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SnowStrengthLimit,
+}
+
+option ClimateZombies.SnowStrengthSpeedValue3 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SpeedValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowStrengthStrengthValue3 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_StrengthValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowStrengthToughnessValue3 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_ToughnessValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowStrengthCognitionValue3 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_CognitionValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowStrengthMemoryValue3 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_MemoryValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowStrengthSightValue3 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SightValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowStrengthHearingValue3 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_HearingValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowStrengthLimit3 {
+    type = double,
+    min = 0.01,
+    max = 0.99,
+    default = 0.75,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SnowStrengthLimit,
+}
+
+option ClimateZombies.SnowStrengthSpeedValue4 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SpeedValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowStrengthStrengthValue4 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_StrengthValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowStrengthToughnessValue4 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_ToughnessValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowStrengthCognitionValue4 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_CognitionValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowStrengthMemoryValue4 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_MemoryValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowStrengthSightValue4 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SightValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.SnowStrengthHearingValue4 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_HearingValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.CloudIntensityEnable {
+    type = boolean,
+    default = true,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_CloudIntensityEnable,
+}
+
+option ClimateZombies.CloudIntensitySpeedValue1 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SpeedValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.CloudIntensityStrengthValue1 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_StrengthValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.CloudIntensityToughnessValue1 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_ToughnessValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.CloudIntensityCognitionValue1 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_CognitionValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.CloudIntensityMemoryValue1 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_MemoryValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.CloudIntensitySightValue1 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SightValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.CloudIntensityHearingValue1 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_HearingValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.CloudIntensityLimit1 {
+    type = double,
+    min = 0.01,
+    max = 0.99,
+    default = 0.25,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_CloudIntensityLimit,
+}
+
+option ClimateZombies.CloudIntensitySpeedValue2 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SpeedValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.CloudIntensityStrengthValue2 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_StrengthValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.CloudIntensityToughnessValue2 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_ToughnessValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.CloudIntensityCognitionValue2 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_CognitionValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.CloudIntensityMemoryValue2 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_MemoryValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.CloudIntensitySightValue2 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SightValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.CloudIntensityHearingValue2 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_HearingValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.CloudIntensityLimit2 {
+    type = double,
+    min = 0.01,
+    max = 0.99,
+    default = 0.5,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_CloudIntensityLimit,
+}
+
+option ClimateZombies.CloudIntensitySpeedValue3 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SpeedValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.CloudIntensityStrengthValue3 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_StrengthValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.CloudIntensityToughnessValue3 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_ToughnessValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.CloudIntensityCognitionValue3 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_CognitionValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.CloudIntensityMemoryValue3 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_MemoryValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.CloudIntensitySightValue3 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SightValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.CloudIntensityHearingValue3 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_HearingValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.CloudIntensityLimit3 {
+    type = double,
+    min = 0.01,
+    max = 0.99,
+    default = 0.75,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_CloudIntensityLimit,
+}
+
+option ClimateZombies.CloudIntensitySpeedValue4 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SpeedValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.CloudIntensityStrengthValue4 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_StrengthValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.CloudIntensityToughnessValue4 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_ToughnessValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.CloudIntensityCognitionValue4 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_CognitionValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.CloudIntensityMemoryValue4 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_MemoryValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.CloudIntensitySightValue4 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SightValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.CloudIntensityHearingValue4 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_HearingValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.WindIntensityEnable {
+    type = boolean,
+    default = true,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_WindIntensityEnable,
+}
+
+option ClimateZombies.WindIntensitySpeedValue1 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SpeedValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.WindIntensityStrengthValue1 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_StrengthValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.WindIntensityToughnessValue1 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_ToughnessValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.WindIntensityCognitionValue1 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_CognitionValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.WindIntensityMemoryValue1 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_MemoryValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.WindIntensitySightValue1 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SightValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.WindIntensityHearingValue1 {
+    type = enum,
+    numValues = 5,
+    default = 4,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_HearingValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.WindIntensityLimit1 {
+    type = double,
+    min = 0.01,
+    max = 0.99,
+    default = 0.25,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_WindIntensityLimit,
+}
+
+option ClimateZombies.WindIntensitySpeedValue2 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SpeedValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.WindIntensityStrengthValue2 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_StrengthValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.WindIntensityToughnessValue2 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_ToughnessValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.WindIntensityCognitionValue2 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_CognitionValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.WindIntensityMemoryValue2 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_MemoryValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.WindIntensitySightValue2 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SightValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.WindIntensityHearingValue2 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_HearingValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.WindIntensityLimit2 {
+    type = double,
+    min = 0.01,
+    max = 0.99,
+    default = 0.5,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_WindIntensityLimit,
+}
+
+option ClimateZombies.WindIntensitySpeedValue3 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SpeedValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.WindIntensityStrengthValue3 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_StrengthValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.WindIntensityToughnessValue3 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_ToughnessValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.WindIntensityCognitionValue3 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_CognitionValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.WindIntensityMemoryValue3 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_MemoryValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.WindIntensitySightValue3 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SightValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.WindIntensityHearingValue3 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_HearingValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.WindIntensityLimit3 {
+    type = double,
+    min = 0.01,
+    max = 0.99,
+    default = 0.75,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_WindIntensityLimit,
+}
+
+option ClimateZombies.WindIntensitySpeedValue4 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SpeedValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.WindIntensityStrengthValue4 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_StrengthValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.WindIntensityToughnessValue4 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_ToughnessValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.WindIntensityCognitionValue4 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_CognitionValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.WindIntensityMemoryValue4 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_MemoryValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.WindIntensitySightValue4 {
+    type = enum,
+    numValues = 5,
+    default = 3,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_SightValue,
+    valueTranslation = ClimateZombies_Values,
+}
+
+option ClimateZombies.WindIntensityHearingValue4 {
+    type = enum,
+    numValues = 5,
+    default = 2,
+    page = ZombieAdvanced,
+    translation = ClimateZombies_HearingValue,
+    valueTranslation = ClimateZombies_Values,
+}
