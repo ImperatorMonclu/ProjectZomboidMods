@@ -1,0 +1,349 @@
+module Base
+{
+	vehicle VolvoC303Base
+	{
+		mechanicType = 1,
+		offRoadEfficiency = 0.8,
+		engineRepairLevel = 4,
+		playerDamageProtection = 0.8,
+
+		model VolvoC303
+		{
+			file = Vehicles_VolvoC303,
+			scale = 2.15,
+			offset = 0 0.20 0,
+		}
+
+		skin
+		{
+			texture = Vehicles/Vehicle_VolvoC303_Shell,
+		}
+
+		textureRust = Vehicles/Vehicle_VolvoC303_Rust,
+		textureMask = Vehicles/Vehicle_VolvoC303_Mask,
+		textureLights = Vehicles/Vehicle_VolvoC303_Lights,
+		textureDamage1Overlay = Vehicles/Vehicle_VolvoC303_Overlays_Damaged01,
+		textureDamage1Shell = Vehicles/Vehicle_VolvoC303_Shell_Damaged01,
+		textureDamage2Overlay = Vehicles/Vehicle_VolvoC303_Overlays_Damaged02,
+		textureDamage2Shell = Vehicles/Vehicle_VolvoC303_Shell_Damaged02,
+
+		sound
+		{
+			horn = vehicle_horn1,
+		}
+
+		extents = 1.7488 1.0047 4.7070,
+		shadowOffset = 0.0000 0.0000,
+		mass = 650,
+		physicsChassisShape = 1.7488 0.8558 4.7070,
+		centerOfMassOffset = 0.0000 0.3023 0.0000,
+		shadowExtents = 1.7500 4.7000,
+		engineForce = 3600,
+		engineQuality = 60,
+		engineLoudness = 55,
+		maxSpeed = 70f,
+		brakingForce = 60,
+		gearRatioCount = 4,
+		gearRatioR = 4.7,
+		gearRatio1 = 3.6,
+		gearRatio2 = 2.2,
+		gearRatio3 = 1.3,
+		gearRatio4 = 1.0,
+		extentsOffset = 0.5 0.5,
+		stoppingMovementForce = 2.0f,
+		rollInfluence = 1.0f,
+		steeringIncrement = 0.02,
+		steeringClamp = 0.3,
+		suspensionStiffness = 30,
+		suspensionCompression = 2.83,
+		suspensionDamping = 2.88,
+		maxSuspensionTravelCm = 100,
+		suspensionRestLength = 0.3f,
+		wheelFriction = 1.6f,
+		frontEndHealth = 150,
+		rearEndHealth = 150,
+		seats = 4,
+
+		wheel FrontLeft
+		{
+			front = true,
+			offset = 0.3209 0.1395 0.6000,
+			radius = 0.3f,
+			width = 0.2f,
+		}
+
+		wheel FrontRight
+		{
+			front = true,
+			offset = -0.3209 0.1395 0.6000,
+			radius = 0.3f,
+			width = 0.2f,
+		}
+
+		wheel RearLeft
+		{
+			front = false,
+			offset = 0.3209 0.1395 -0.6698,
+			radius = 0.3f,
+			width = 0.2f,
+		}
+
+		wheel RearRight
+		{
+			front = false,
+			offset = -0.3209 0.1395 -0.6698,
+			radius = 0.3f,
+			width = 0.2f,
+		}
+
+		template = PassengerSeat4,
+
+		passenger FrontLeft
+		{
+			position inside
+			{
+				offset = 0.2000 0.0000 -0.0140,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = 0.5721 0.0000 -0.0140,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+		}
+
+		passenger FrontRight
+		{
+			position inside
+			{
+				offset = -0.2000 0.0000 -0.0140,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = -0.5721 0.0000 -0.0140,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+		}
+
+		passenger RearLeft
+		{
+			position inside
+			{
+				offset = 0.2000 0.0000 -0.4000,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+			}
+		}
+
+		passenger RearRight
+		{
+			position inside
+			{
+				offset = -0.2000 0.0000 -0.4000,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+			}
+		}
+
+		area Engine
+		{
+			xywh = 0.0000 1.3256 0.8186 0.4651,
+		}
+
+		area TruckBed
+		{
+			xywh = 0.0000 -1.3256 0.8186 0.4651,
+		}
+
+		area SeatFrontLeft
+		{
+			xywh = 0.6372 -0.0140 0.4651 0.6512,
+		}
+
+		area SeatFrontRight
+		{
+			xywh = -0.6372 -0.0140 0.4651 0.6512,
+		}
+
+		area GasTank
+		{
+			xywh = 0.6372 -0.6698 0.4651 0.4651,
+		}
+
+		area TireFrontLeft
+		{
+			xywh = 0.6372 0.6000 0.4651 0.4651,
+		}
+
+		area TireFrontRight
+		{
+			xywh = -0.6372 0.6000 0.4651 0.4651,
+		}
+
+		area TireRearLeft
+		{
+			xywh = 0.6372 -0.6698 0.4651 0.4651,
+		}
+
+		area TireRearRight
+		{
+			xywh = -0.6372 -0.6698 0.4651 0.4651,
+		}
+
+		template = TrunkDoor,
+		template = Trunk/part/TruckBed,
+
+		part TruckBed
+		{
+			itemType = Base.SmallTrunk,
+
+			container
+			{
+				capacity = 40,
+			}
+		}
+
+		template = Seat/part/SeatFrontLeft,
+		template = Seat/part/SeatFrontRight,
+		template = Seat/part/SeatRearLeft,
+		template = Seat/part/SeatRearRight,
+
+		part SeatRearLeft
+		{
+			table install
+			{
+				area = SeatFrontLeft,
+			}
+
+			table uninstall
+			{
+				area = SeatFrontLeft,
+			}
+		}
+
+		part SeatRearRight
+		{
+			table install
+			{
+				area = SeatFrontRight,
+			}
+
+			table uninstall
+			{
+				area = SeatFrontRight,
+			}
+		}
+
+		part Seat*
+		{
+			container
+			{
+				capacity = 20,
+			}
+
+			table install
+			{
+				skills = Mechanics:2,
+			}
+
+			table uninstall
+			{
+				skills = Mechanics:2,
+			}
+		}
+
+		part GloveBox
+		{
+			area = SeatFrontRight,
+			itemType = Base.GloveBox,
+
+			container
+			{
+				capacity = 3,
+				test = Vehicles.ContainerAccess.GloveBox,
+			}
+
+			lua
+			{
+				create = Vehicles.Create.Default,
+			}
+		}
+
+		template = GasTank,
+		template = Battery,
+		template = Engine,
+		template = Muffler,
+		template = EngineDoor,
+
+		part EngineDoor
+		{
+			mechanicRequireKey = false,
+		}
+
+		part Heater
+		{
+			category = engine,
+
+			lua
+			{
+				update = Vehicles.Update.Heater,
+			}
+		}
+
+		part PassengerCompartment
+		{
+			category = nodisplay,
+
+			lua
+			{
+				update = Vehicles.Update.PassengerCompartment,
+			}
+		}
+
+		template = Windshield/part/Windshield,
+		template = Windshield/part/WindshieldRear,
+		template = Window/part/WindowFrontLeft,
+		template = Window/part/WindowFrontRight,
+		template = Window/part/WindowRearLeft,
+		template = Window/part/WindowRearRight,
+
+		part WindowRearLeft
+		{
+			area = TireRearLeft,
+			parent =,
+
+			table install
+			{
+				requireInstalled =,
+			}
+		}
+
+		part WindowRearRight
+		{
+			area = TireRearRight,
+			parent =,
+
+			table install
+			{
+				requireInstalled =,
+			}
+		}
+
+		template = Door/part/DoorFrontLeft,
+		template = Door/part/DoorFrontRight,
+		template = Tire,
+		template = Brake,
+		template = Suspension,
+		template = Radio,
+		template = Headlight,
+	}
+}
